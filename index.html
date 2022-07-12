@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="https://kit.fontawesome.com/a86bdd204a.js" crossorigin="anonymous"></script>
+  <title>Responsive Cards1</title>
+</head>
+
+<body>
+  <section class="container">
+    <!-- CARD IMAGE & CARD CONTAINER --ALSO CONTAINS ALL CARD INFO -->
+    <div class="card" id="blueyescardpic">
+      <div class="cardimage blueeyes " onmouseover="showInfobe()" onmouseleave="hideInfo()" id="blueyesid">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cardimage darkmag" id="darkmagid" onmouseover="showInfodm()" onmouseleave="hideInfo()">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cardimage summoned" id="summonedid" onmouseover="showInfoss()" onmouseleave="hideInfo()">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cardimage redeyes" id="redeyesid" onmouseover="showInfore()" onmouseleave="hideInfo()">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="cardimage mreborn" id="mrebornid" onmouseover="showInfomr()" onmouseleave="hideInfo()">
+      </div>
+    </div>
+
+    <!--deck of cards -->
+    <div class="deckofcards" id="deckofcards">
+      <div class="card">
+        <div class="cardimage deck ">
+        </div>
+      </div>
+    </div>
+
+    <!--Cards In Hand -->
+    <div class="cardsinhand" id="cardsinhand">
+
+      <div class="inhand flameswordsman" id="flameswordsman">
+        <div class="cardinhandmain">
+          <div class="cardimage flames"></div>
+        </div>
+      </div>
+
+      <div class="inhand kuribohcard">
+        <div class="cardinhandmain">
+          <div class="cardimage   kuriboh"></div>
+        </div>
+      </div>
+
+      <div class="inhand">
+        <div class="cardinhandmain">
+          <div class="cardimage  changeheart"></div>
+        </div>
+      </div>
+
+      <div class="inhand">
+        <div class="cardinhandmain">
+          <div class="cardimage  celtic"></div>
+        </div>
+      </div>
+
+      <div class="inhand">
+        <div class="cardinhandmain">
+          <div class="cardimage mystery" id="mysterycard"></div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="infocontainer">
+      <!-- ALL CARD INFO (BLUEEYES)-->
+      <section class="info" id="blueyeinfo">
+        <button class="exit" onclick="exit()"><i class="fa-solid fa-circle-xmark"></i></button>
+        <h3 class="name">BLUE-EYES WHITE DRAGON</h3>
+
+        <hr class="topline">
+        <div class="stars"> <i class="yellowstar fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+
+        <h6 class="type"> [DRAGON] </h6>
+        <p class="text"><em>
+            This legendary dragon is a powerful engine of destruction. Virtually
+            invincible, very few have faced this awesome creature and lived to tell
+            the tale</em>
+        </p>
+
+        <div class="button-container">
+          <button class="ATK button">ATK/3000</button>
+          <button class="def button">DEF/2500</button>
+          <button class="rotatemag"><i class="fa-solid fa-rotate"></i></button>
+          <button class="rotatemag" onmouseover="enlarge()" onmouseleave="reset()" id="enlarge"><i
+              class="fa-solid fa-magnifying-glass-plus"></i></button>
+        </div>
+      </section>
+
+      <!-- ALL CARD INFO (DARK-MAGICIAN)-->
+      <section class="info" id="darkmaginfo">
+        <button class="exit " onclick="exit()" id="exit"><i class="fa-solid fa-circle-xmark"></i>
+        </button>
+        <h3 class="name"> DARK MAGICIAN </h3>
+
+        <hr class="topline">
+        <div class="stars"> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <br>
+        <h6 class="type"> [SPELLCASTER] </h6>
+        <p class="text"><em>
+            The ultimate wizard in terms of attack and defense</em>
+        </p>
+
+        <div class="button-container">
+          <button class="ATK button">ATK/2500</button>
+          <button class="def button">DEF/2100</button>
+          <button class="rotatemag rotatemagdm"><i class="fa-solid fa-rotate"></i></button>
+          <button class="rotatemag rotatemagdm"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+        </div>
+      </section>
+
+      <!-- ALL CARD INFO (SUMMONED SKULL)-->
+      <section class="info" id="summoninfo">
+        <button class="exit" onclick="exit()"><i class="fa-solid fa-circle-xmark"></i>
+        </button>
+        <h3 class="name">SUMMONED SKULL</h3>
+        <hr class="topline">
+        <div class="stars"> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i>
+        </div>
+        <h6 class="type"> [FIEND] </h6>
+        <p class="text"><em>
+            A fiend with dark powers for confusing the enemy. Among the Fiend-Type monsters, this monster boasts
+            considerable force.</em>
+        </p>
+
+
+        <div class="button-container">
+          <button class="ATK button">ATK/2500</button>
+          <button class="def button">DEF/1200</button>
+          <button class="rotatemag"><i class="fa-solid fa-rotate"></i></button>
+          <button class="rotatemag"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+        </div>
+      </section>
+
+      <!-- ALL CARD INFO (RED-EYES BLACK DRAGON)-->
+      <section class="info" id="redeyeinfo">
+        <button class="exit" onclick="exit()"><i class="fa-solid fa-circle-xmark"></i></button>
+        <h3 class="name">RED-EYES BLACK DRAGON </h3>
+        <hr class="topline">
+        <div class="stars"> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <br>
+
+        <h6 class="type"> [DRAGON/NORMAL] </h6>
+        <p class="text"><em>
+            A ferocious dragon with a deadly attack</em>
+        </p>
+
+
+        <div class="button-container">
+
+          <button class="ATK button">ATK/2400</button>
+          <button class="def button">DEF/2000</button>
+          <button class="rotatemag rotatemagre"><i class="fa-solid fa-rotate"></i></button>
+          <button class="rotatemag rotatemagre"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+        </div>
+      </section>
+
+      <!-- ALL CARD INFO (MONSTER REBORN)-->
+      <section class="info" id="mreborninfo">
+        <button class="exit" onclick="exit()"><i class="fa-solid fa-circle-xmark"></i></button>
+        <h3 class="name"> MONSTER REBORN</h3>
+        <hr class="topline">
+        <br>
+        <br>
+        <h6 class="type"> [SPELL CARD] </h6>
+        <p class="text"><em>
+            Target 1 monster in either player's Graveyard; Special Summon it.</em>
+        </p>
+
+
+        <div class="button-container">
+          <button class="ATK button">MY/GRAVE</button>
+          <button class="def button">OPP/GRAVE</button>
+          <button class="rotatemag"><i class="fa-solid fa-rotate"></i></button>
+          <button class="rotatemag"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+        </div>
+      </section>
+
+
+    </div>
+
+
+
+
+
+
+
+  </section>
+
+  <script src="/scripts/script.js"></script>
+  <script src="/scripts/blueyeswhitedragon.js"></script>
+  <script src="/scripts/darkmagician.js"></script>
+  <script src="/scripts/monsterreborn.js"></script>
+  <script src="/scripts/redeyesblackdragon.js"></script>
+  <script src="/scripts/summonedskull.js"></script>
+</body>
+
+</html>

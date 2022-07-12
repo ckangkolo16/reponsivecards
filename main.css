@@ -1,0 +1,411 @@
+/*
+using the "flex" value displays the items in the .container horizontally 
+justify-content - centers the container to the middle of the page.
+*/
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 900px;
+}
+
+.infocontainer {
+  display: flex;
+  position: relative;
+  bottom: 185px;
+  right: 140px;
+}
+
+body {
+  background: rgb(181, 144, 32);
+}
+
+.card {
+  background: rgb(181, 144, 32);
+  height: 150px;
+  width: 150px;
+  /* margin is going to provide space between the cards */
+  margin: 10px;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+.cardimage {
+  /* background-color: red; */
+  height: 220px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.cardimage:hover {
+  background-color: antiquewhite;
+
+  cursor: grabbing;
+}
+
+/*BLUE-EYES WHITE DRAGON**BLUE-EYES WHITE DRAGON**BLUE-EYES WHITE DRAGON*/
+.blueeyes {
+  background-image: url(/images/backofcard.jpg);
+}
+
+.blueeyes:hover {
+  background-image: url(/images/blueeyes2.jpg);
+  transform: scale(1.35);
+}
+
+.blueyes2 {
+  background-image: url(/images/blueeyes2.jpg);
+}
+
+#blueyescardpic {
+  position: relative;
+  /* top: 250px;
+  left: 270px; */
+}
+
+#blueyeinfo {
+  display: none;
+  margin-top: 100px;
+  margin-left: 480px;
+  width: 525px;
+  height: 208px;
+  background-color: rgb(161, 126, 19);
+  position: relative;
+  right: 250px;
+  border-radius: 10px;
+  border: 3px solid rgba(92, 71, 10, 0.839);
+}
+
+/*DARK MAGICIAN CARD**DARK MAGICIAN CARD**DARK MAGICIAN CARD*/
+.darkmag {
+  background-image: url(/images/backofcard.jpg);
+}
+
+.darkmag:hover {
+  background-image: url(/images/darkmagician.jpg);
+  transform: scale(1.35);
+}
+
+.darkmag2 {
+  background-image: url(/images/darkmagician.jpg);
+}
+
+#darkmaginfo {
+  display: none;
+  margin-top: 100px;
+  margin-left: 480px;
+  width: 525px;
+  height: 208px;
+  background-color: rgb(161, 126, 19);
+  position: relative;
+  right: 250px;
+  border-radius: 10px;
+  border: 3px solid rgba(92, 71, 10, 0.839);
+}
+
+/*SUMMONED SKULL**SUMMONED SKULL**SUMMONED SKULL**SUMMONED SKULL**SUMMONED SKULL*/
+.summoned {
+  background-image: url(/images/backofcard.jpg);
+}
+
+.summoned:hover {
+  background-image: url(/images/SummonedSkull.jpg);
+  transform: scale(1.35);
+}
+
+.summoned2 {
+  background-image: url(/images/SummonedSkull.jpg);
+}
+
+#summoninfo {
+  display: none;
+  margin-top: 100px;
+  margin-left: 480px;
+  width: 525px;
+  height: 208px;
+  background-color: rgb(161, 126, 19);
+  position: relative;
+  right: 250px;
+  border-radius: 10px;
+  border: 3px solid rgba(92, 71, 10, 0.839);
+}
+
+/*RED-EYES BLACK**RED-EYES BLACK DRAGON**RED-EYES BLACK DRAGON**RED-EYES BLACK DRAGON*/
+.redeyes {
+  background-image: url(/images/backofcard.jpg);
+}
+
+.redeyes:hover {
+  background-image: url(/images/redeyes.jpg);
+  transform: scale(1.35);
+}
+
+.redeyes2 {
+  background-image: url(/images/redeyes.jpg);
+}
+
+#redeyeinfo {
+  display: none;
+  margin-top: 100px;
+  margin-left: 480px;
+  width: 525px;
+  height: 208px;
+  background-color: rgb(161, 126, 19);
+  position: relative;
+  right: 250px;
+  border-radius: 10px;
+  border: 3px solid rgba(92, 71, 10, 0.839);
+}
+
+/*MONSTER REBORN**MONSTER REBORN**MONSTER REBORN*/
+.mreborn {
+  background-image: url(/images/backofcard.jpg);
+}
+
+.mreborn:hover {
+  background-image: url(/images/monsterreborn.jpg);
+  transform: scale(1.35);
+}
+
+.mreborn2 {
+  background-image: url(/images/monsterreborn.jpg);
+}
+
+#mreborninfo {
+  display: none;
+  margin-top: 100px;
+  margin-left: 480px;
+  width: 525px;
+  height: 208px;
+  background-color: rgb(161, 126, 19);
+  position: relative;
+  right: 250px;
+  border-radius: 10px;
+  border: 3px solid rgba(92, 71, 10, 0.839);
+}
+/*JINZO**JINZO**JINZO**JINZO**JINZO**JINZO**JINZO*/
+.deck {
+  background-image: url(/images/deck.jpg);
+}
+
+#deckofcards {
+  position: relative;
+  top: 320px;
+  right: -130px;
+}
+
+.jinzo:hover {
+  background-image: url(/images/Jinzo.jpg);
+  transform: scale(1.35);
+}
+
+.flip {
+  position: relative;
+  left: 250px;
+}
+
+.name {
+  position: relative;
+  bottom: 29px;
+  text-align: right;
+  margin-right: 40px;
+}
+
+/*BUTTONS**BUTTONS**BUTTONS**BUTTONS**BUTTONS**BUTTONS**BUTTONS**BUTTONS*/
+
+.button-container {
+  /* background-color: blue; */
+  padding-bottom: 45px;
+  width: 525px;
+  position: relative;
+  bottom: 142px;
+  height: 50px;
+}
+.button {
+  position: relative;
+  left: 210px;
+  width: 150px;
+  height: 35px;
+  top: 65px;
+  bottom: 0px;
+  font-size: 16px;
+  font-family: poppins;
+  font-weight: 700;
+  border: 5px solid rgba(92, 71, 10, 0.839);
+  cursor: crosshair;
+  border-radius: 50px;
+  background-color: rgb(181, 144, 32);
+}
+
+.button:hover {
+  box-shadow: 0 5px 50px 0 rgba(92, 71, 10, 0.839) inset,
+    0 5px 50px 0 rgba(92, 71, 10, 0.839);
+}
+.exit {
+  position: relative;
+  left: 496px;
+  background: none;
+  border: none;
+  bottom: -6px;
+}
+
+.exit:hover {
+  font-size: larger;
+}
+
+.rotatemag {
+  position: relative;
+  right: 271px;
+  top: -70px;
+
+  background: none;
+  border: none;
+  margin: -4px;
+}
+
+.rotatemagdm {
+  top: -69px;
+}
+
+.rotatemagre {
+  top: -69px;
+}
+.rotatemag:hover {
+  font-size: larger;
+}
+
+.topline {
+  position: relative;
+  top: -40px;
+  bottom: 0px;
+  border: 1px solid rgba(92, 71, 10, 0.839);
+  border-radius: 5px;
+  width: 85%;
+}
+
+.stars {
+  position: relative;
+  top: -41px;
+  left: 336px;
+}
+
+.fa-star {
+  background: rgb(160, 3, 3);
+  border-radius: 95px;
+  color: rgb(235, 235, 15);
+  font-size: 15px;
+}
+
+.fa-star:hover {
+  background: red;
+  border-radius: 95px;
+  color: yellow;
+  font-size: larger;
+}
+
+.text {
+  position: relative;
+  top: -83px;
+  bottom: 0px;
+  margin-left: 11px;
+}
+
+.type {
+  position: relative;
+  top: -65px;
+  bottom: 0px;
+  margin-left: 11px;
+}
+
+.maincard {
+  position: relative;
+}
+
+.deck {
+  background-image: url(/images/decpng.jpg);
+}
+
+.deck:hover {
+  background-image: url(/images/backofcard.jpg);
+  transform: scale(1.05);
+}
+.deckofcards {
+  position: relative;
+  top: 346px;
+  right: -146px;
+}
+
+.inhand {
+  position: relative;
+  top: 346px;
+  right: -146px;
+}
+#cardsinhand {
+  position: relative;
+}
+
+.cardsinhand {
+  display: flex;
+  /* background-color: blue; */
+  height: 0px;
+  top: -526px;
+  left: -246px;
+  right: 0px;
+}
+
+.cardinhandmain {
+  background: none;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+.flames {
+  background-image: url(/images/flameswordsman.jpg);
+
+  transform: rotate(328deg);
+  position: relative;
+  right: -221px;
+  top: 0px;
+  /* bottom: 0px; */
+}
+
+.kuriboh {
+  background-image: url(/images/kuriboh.jpg);
+  transform: rotate(346deg);
+  position: relative;
+  right: -99px;
+  top: -19px;
+  bottom: 0px;
+}
+
+.changeheart {
+  background-image: url(/images/changeofheart.jpg);
+  position: relative;
+  /* right: -99px;
+  top: -10px; */
+  bottom: 25px;
+}
+
+.celtic {
+  background-image: url(/images/CelticGuardian.png);
+  transform: rotate(7deg);
+  position: relative;
+  right: 66px;
+  top: -22px;
+}
+
+.mystery {
+  background-image: url(/images/ExodiatheForbiddenOne.png);
+  transform: rotate(29deg);
+  position: relative;
+  right: 150px;
+  top: 5px;
+}
+
+#mysterycard {
+  display: none;
+}
