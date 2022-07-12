@@ -46,16 +46,16 @@ body {
 
 /*BLUE-EYES WHITE DRAGON**BLUE-EYES WHITE DRAGON**BLUE-EYES WHITE DRAGON*/
 .blueeyes {
-  background-image: url(/images/backofcard.jpg);
+  background-image: url(./images/backofcard.jpg);
 }
 
 .blueeyes:hover {
-  background-image: url(/images/blueeyes2.jpg);
+  background-image: url(./images/blueeyes2.jpg);
   transform: scale(1.35);
 }
 
 .blueyes2 {
-  background-image: url(/images/blueeyes2.jpg);
+  background-image: url(./images/blueeyes2.jpg);
 }
 
 #blueyescardpic {
@@ -79,16 +79,16 @@ body {
 
 /*DARK MAGICIAN CARD**DARK MAGICIAN CARD**DARK MAGICIAN CARD*/
 .darkmag {
-  background-image: url(/images/backofcard.jpg);
+  background-image: url(./images/backofcard.jpg);
 }
 
 .darkmag:hover {
-  background-image: url(/images/darkmagician.jpg);
+  background-image: url(./images/darkmagician.jpg);
   transform: scale(1.35);
 }
 
 .darkmag2 {
-  background-image: url(/images/darkmagician.jpg);
+  background-image: url(./images/darkmagician.jpg);
 }
 
 #darkmaginfo {
@@ -106,16 +106,16 @@ body {
 
 /*SUMMONED SKULL**SUMMONED SKULL**SUMMONED SKULL**SUMMONED SKULL**SUMMONED SKULL*/
 .summoned {
-  background-image: url(/images/backofcard.jpg);
+  background-image: url(./images/backofcard.jpg);
 }
 
 .summoned:hover {
-  background-image: url(/images/SummonedSkull.jpg);
+  background-image: url(./images/SummonedSkull.jpg);
   transform: scale(1.35);
 }
 
 .summoned2 {
-  background-image: url(/images/SummonedSkull.jpg);
+  background-image: url(./images/SummonedSkull.jpg);
 }
 
 #summoninfo {
@@ -133,16 +133,16 @@ body {
 
 /*RED-EYES BLACK**RED-EYES BLACK DRAGON**RED-EYES BLACK DRAGON**RED-EYES BLACK DRAGON*/
 .redeyes {
-  background-image: url(/images/backofcard.jpg);
+  background-image: url(./images/backofcard.jpg);
 }
 
 .redeyes:hover {
-  background-image: url(/images/redeyes.jpg);
+  background-image: url(./images/redeyes.jpg);
   transform: scale(1.35);
 }
 
 .redeyes2 {
-  background-image: url(/images/redeyes.jpg);
+  background-image: url(./images/redeyes.jpg);
 }
 
 #redeyeinfo {
@@ -160,16 +160,16 @@ body {
 
 /*MONSTER REBORN**MONSTER REBORN**MONSTER REBORN*/
 .mreborn {
-  background-image: url(/images/backofcard.jpg);
+  background-image: url(./images/backofcard.jpg);
 }
 
 .mreborn:hover {
-  background-image: url(/images/monsterreborn.jpg);
+  background-image: url(./images/monsterreborn.jpg);
   transform: scale(1.35);
 }
 
 .mreborn2 {
-  background-image: url(/images/monsterreborn.jpg);
+  background-image: url(./images/monsterreborn.jpg);
 }
 
 #mreborninfo {
@@ -186,7 +186,7 @@ body {
 }
 /*JINZO**JINZO**JINZO**JINZO**JINZO**JINZO**JINZO*/
 .deck {
-  background-image: url(/images/deck.jpg);
+  background-image: url(./images/deck.jpg);
 }
 
 #deckofcards {
@@ -196,7 +196,7 @@ body {
 }
 
 .jinzo:hover {
-  background-image: url(/images/Jinzo.jpg);
+  background-image: url(./images/Jinzo.jpg);
   transform: scale(1.35);
 }
 
@@ -323,11 +323,11 @@ body {
 }
 
 .deck {
-  background-image: url(/images/decpng.jpg);
+  background-image: url(./images/decpng.jpg);
 }
 
 .deck:hover {
-  background-image: url(/images/backofcard.jpg);
+  background-image: url(./images/backofcard.jpg);
   transform: scale(1.05);
 }
 .deckofcards {
@@ -364,7 +364,7 @@ body {
 }
 
 .flames {
-  background-image: url(/images/flameswordsman.jpg);
+  background-image: url(./images/flameswordsman.jpg);
 
   transform: rotate(328deg);
   position: relative;
@@ -374,7 +374,7 @@ body {
 }
 
 .kuriboh {
-  background-image: url(/images/kuriboh.jpg);
+  background-image: url(./images/kuriboh.jpg);
   transform: rotate(346deg);
   position: relative;
   right: -99px;
@@ -383,7 +383,7 @@ body {
 }
 
 .changeheart {
-  background-image: url(/images/changeofheart.jpg);
+  background-image: url(./images/changeofheart.jpg);
   position: relative;
   /* right: -99px;
   top: -10px; */
@@ -391,7 +391,7 @@ body {
 }
 
 .celtic {
-  background-image: url(/images/CelticGuardian.png);
+  background-image: url(./images/CelticGuardian.png);
   transform: rotate(7deg);
   position: relative;
   right: 66px;
@@ -399,7 +399,7 @@ body {
 }
 
 .mystery {
-  background-image: url(/images/ExodiatheForbiddenOne.png);
+  background-image: url(./images/ExodiatheForbiddenOne.png);
   transform: rotate(29deg);
   position: relative;
   right: 150px;
